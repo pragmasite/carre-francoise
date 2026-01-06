@@ -1,0 +1,280 @@
+export type Language = "fr" | "de" | "en";
+
+export const translations = {
+  fr: {
+    nav: {
+      about: "À propos",
+      services: "Services",
+      gallery: "Galerie",
+      hours: "Horaires",
+      contact: "Contact",
+      call: "Appeler",
+      profession: "OPHTALMOLOGUE & HOMÉOPATHE",
+    },
+    hero: {
+      badge: "Expertise professionnelle en ophtalmologie et homéopathie",
+      title1: "Soins des yeux",
+      title2: "Personnalisés et naturels",
+      description: "Dr. Carré Françoise vous accueille pour une approche holistique de votre santé oculaire, combinant la médecine ophtalmologique moderne avec l'homéopathie.",
+      sendEmail: "Envoyer un email",
+      location: "Martigny, Suisse",
+    },
+    about: {
+      label: "À propos",
+      title1: "Dr. Carré",
+      title2: "Françoise",
+      p1: "Ophtalmologue et homéopathe de formation, Dr. Carré Françoise met son expertise au service de votre bien-être visuel. Avec une approche personnalisée et attentive, elle diagnostique et traite les troubles oculaires en intégrant les principes de l'homéopathie.",
+      p2: "Situé à proximité immédiate de la gare de Martigny, le cabinet « La clé du bien-être » offre un environnement accueillant et professionnel où chaque patient est traité avec le plus grand soin.",
+      stat1: "Patients confiants",
+      stat2: "Examens réussis",
+      stat3: "Satisfaction garantie",
+      features: [
+        { title: "Examens visuels complets", description: "Diagnostic précis et détaillé de votre vision" },
+        { title: "Verres correcteurs", description: "Prescription et adaptation de lunettes et lentilles de contact" },
+        { title: "Traitement homéopathique", description: "Adaptation personnalisée des traitements à vos conditions" },
+        { title: "Certifications médicales", description: "Certificats pour permis de conduire et autres besoins" },
+      ],
+    },
+    services: {
+      label: "Nos prestations",
+      title: "Services professionnels",
+      description: "Une gamme complète de services ophtalmologiques adaptés à tous les âges, du diagnostic à la prescription.",
+      items: [
+        { title: "Examen des yeux", description: "Diagnostic complet et analyse détaillée de votre santé oculaire" },
+        { title: "Lunettes et lentilles", description: "Prescription de verres correcteurs et adaptation de lentilles de contact" },
+        { title: "Maladies oculaires", description: "Traitement des pathologies ophtalmologiques" },
+        { title: "Homéopathie oculaire", description: "Adaptation des traitements homéopathiques pour les troubles visuels" },
+        { title: "Traitement standard", description: "Approche médicale conventionnelle pour les troubles oculaires" },
+        { title: "Certification permis", description: "Examen de vision pour permis de conduire" },
+      ],
+    },
+    gallery: {
+      label: "Nos réalisations",
+      title: "Galerie",
+      description: "Découvrez nos installations modernes et notre approche professionnelle du soin oculaire.",
+    },
+    hours: {
+      label: "Disponibilité",
+      title: "Horaires d'ouverture",
+      header: "Heures d'ouverture",
+      today: "Aujourd'hui",
+      closed: "Fermé",
+      days: ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    },
+    contact: {
+      label: "Contact",
+      title1: "Nous",
+      title2: "contacter",
+      description: "Prenez rendez-vous ou posez vos questions directement. Notre équipe est à votre disposition.",
+      phone: "Téléphone",
+      email: "Email",
+      address: "Adresse",
+      cta: "Appeler maintenant",
+      callNow: "Appelez maintenant",
+    },
+    footer: {
+      tagline: "Ophtalmologie & Homéopathie",
+      description: "Dr. Carré Françoise - Cabinet médical spécialisé",
+      navigation: "Navigation",
+      about: "À propos",
+      copyright: "Tous droits réservés.",
+    },
+    disclaimer: {
+      title: "Aperçu du site",
+      items: [
+        "Ce site web est un brouillon de prévisualisation",
+        "Il n'est pas référencé sur Google",
+        "Il peut contenir des erreurs ou des inexactitudes",
+      ],
+      button: "J'ai compris",
+    },
+  },
+  de: {
+    nav: {
+      about: "Über uns",
+      services: "Leistungen",
+      gallery: "Galerie",
+      hours: "Öffnungszeiten",
+      contact: "Kontakt",
+      call: "Anrufen",
+      profession: "AUGENÄRZTIN & HOMÖOPATHIN",
+    },
+    hero: {
+      badge: "Fachkompetenz in Augenheilkunde und Homöopathie",
+      title1: "Personalisierte",
+      title2: "Augenpflege",
+      description: "Dr. Carré Françoise empfängt Sie für einen ganzheitlichen Ansatz zu Ihrer Augengesundheit, der moderne Augenheilkunde mit Homöopathie verbindet.",
+      sendEmail: "E-Mail senden",
+      location: "Martigny, Schweiz",
+    },
+    about: {
+      label: "Über uns",
+      title1: "Dr. Carré",
+      title2: "Françoise",
+      p1: "Als ausgebildete Augenärztin und Homöopathin stellt Dr. Carré Françoise ihre Fachkompetenz in den Dienst Ihrer Augengesundheit. Mit einem personalisierten und aufmerksamen Ansatz diagnostiziert und behandelt sie Augenstörungen unter Einbeziehung homöopathischer Prinzipien.",
+      p2: "Die Praxis in unmittelbarer Nähe des Bahnhofs Martigny bietet ein freundliches und professionelles Umfeld, in dem jeder Patient mit größter Sorgfalt behandelt wird.",
+      stat1: "Vertraute Patienten",
+      stat2: "Erfolgreiche Untersuchungen",
+      stat3: "Garantierte Zufriedenheit",
+      features: [
+        { title: "Umfassende Sehtests", description: "Genaue Diagnose und detaillierte Sehanalyse" },
+        { title: "Sehhilfen", description: "Verordnung und Anpassung von Brillen und Kontaktlinsen" },
+        { title: "Homöopathische Behandlung", description: "Personalisierte Anpassung der Behandlung an Ihre Bedingungen" },
+        { title: "Medizinische Bescheinigungen", description: "Zertifikate für Führerschein und weitere Bedürfnisse" },
+      ],
+    },
+    services: {
+      label: "Unsere Leistungen",
+      title: "Professionelle Dienstleistungen",
+      description: "Ein umfassendes Angebot an augenärztlichen Leistungen für alle Altersgruppen, von der Diagnose bis zur Verordnung.",
+      items: [
+        { title: "Augenuntersuchung", description: "Umfassende Diagnose und detaillierte Analyse Ihrer Augengesundheit" },
+        { title: "Brillen und Linsen", description: "Verordnung von Sehhilfen und Anpassung von Kontaktlinsen" },
+        { title: "Augenkrankheiten", description: "Behandlung von augenärztlichen Erkrankungen" },
+        { title: "Homöopathische Augenpflege", description: "Anpassung homöopathischer Behandlungen für Sehstörungen" },
+        { title: "Standardbehandlung", description: "Konventioneller medizinischer Ansatz für Augenstörungen" },
+        { title: "Führerschein-Bescheinigung", description: "Sehtauglichkeitsprüfung für Führerschein" },
+      ],
+    },
+    gallery: {
+      label: "Unsere Arbeiten",
+      title: "Galerie",
+      description: "Entdecken Sie unsere modernen Einrichtungen und unseren professionellen Ansatz zur Augenpflege.",
+    },
+    hours: {
+      label: "Verfügbarkeit",
+      title: "Öffnungszeiten",
+      header: "Öffnungszeiten",
+      today: "Heute",
+      closed: "Geschlossen",
+      days: ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"],
+    },
+    contact: {
+      label: "Kontakt",
+      title1: "Kontaktieren",
+      title2: "Sie uns",
+      description: "Vereinbaren Sie einen Termin oder stellen Sie Ihre Fragen direkt. Unser Team steht Ihnen zur Verfügung.",
+      phone: "Telefon",
+      email: "E-Mail",
+      address: "Adresse",
+      cta: "Jetzt anrufen",
+      callNow: "Jetzt anrufen",
+    },
+    footer: {
+      tagline: "Augenheilkunde & Homöopathie",
+      description: "Dr. Carré Françoise - Spezialisierte Facharztpraxis",
+      navigation: "Navigation",
+      about: "Über uns",
+      copyright: "Alle Rechte vorbehalten.",
+    },
+    disclaimer: {
+      title: "Website-Vorschau",
+      items: [
+        "Diese Website ist ein Vorschau-Entwurf",
+        "Sie ist nicht bei Google indexiert",
+        "Sie kann Fehler oder Ungenauigkeiten enthalten",
+      ],
+      button: "Verstanden",
+    },
+  },
+  en: {
+    nav: {
+      about: "About",
+      services: "Services",
+      gallery: "Gallery",
+      hours: "Hours",
+      contact: "Contact",
+      call: "Call",
+      profession: "OPHTHALMOLOGIST & HOMEOPATH",
+    },
+    hero: {
+      badge: "Professional expertise in ophthalmology and homeopathy",
+      title1: "Personalized",
+      title2: "Eye Care",
+      description: "Dr. Carré Françoise welcomes you for a holistic approach to your eye health, combining modern ophthalmology with homeopathy.",
+      sendEmail: "Send email",
+      location: "Martigny, Switzerland",
+    },
+    about: {
+      label: "About",
+      title1: "Dr. Carré",
+      title2: "Françoise",
+      p1: "A trained ophthalmologist and homeopath, Dr. Carré Françoise places her expertise at the service of your eye health. With a personalized and attentive approach, she diagnoses and treats eye disorders while incorporating homeopathic principles.",
+      p2: "Located just steps from Martigny train station, the clinic at 'La clé du bien-être' offers a welcoming and professional environment where each patient is treated with the greatest care.",
+      stat1: "Confident Patients",
+      stat2: "Successful Exams",
+      stat3: "Guaranteed Satisfaction",
+      features: [
+        { title: "Comprehensive Eye Exams", description: "Precise diagnosis and detailed vision analysis" },
+        { title: "Corrective Lenses", description: "Prescription and fitting of glasses and contact lenses" },
+        { title: "Homeopathic Treatment", description: "Personalized treatment adaptation to your condition" },
+        { title: "Medical Certifications", description: "Certificates for driver's license and other needs" },
+      ],
+    },
+    services: {
+      label: "Our Services",
+      title: "Professional Services",
+      description: "A complete range of ophthalmological services tailored to all ages, from diagnosis to prescription.",
+      items: [
+        { title: "Eye Examination", description: "Complete diagnosis and detailed analysis of your eye health" },
+        { title: "Glasses & Contacts", description: "Prescription of corrective lenses and fitting of contact lenses" },
+        { title: "Eye Diseases", description: "Treatment of ophthalmological conditions" },
+        { title: "Homeopathic Eye Care", description: "Adaptation of homeopathic treatments for vision disorders" },
+        { title: "Standard Treatment", description: "Conventional medical approach for eye disorders" },
+        { title: "Driver's License Exam", description: "Vision examination for driver's license certification" },
+      ],
+    },
+    gallery: {
+      label: "Our Work",
+      title: "Gallery",
+      description: "Discover our modern facilities and professional approach to eye care.",
+    },
+    hours: {
+      label: "Availability",
+      title: "Opening Hours",
+      header: "Opening Hours",
+      today: "Today",
+      closed: "Closed",
+      days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    },
+    contact: {
+      label: "Contact",
+      title1: "Get in",
+      title2: "Touch",
+      description: "Schedule an appointment or ask your questions directly. Our team is at your service.",
+      phone: "Phone",
+      email: "Email",
+      address: "Address",
+      cta: "Call Now",
+      callNow: "Call Now",
+    },
+    footer: {
+      tagline: "Ophthalmology & Homeopathy",
+      description: "Dr. Carré Françoise - Specialized Medical Practice",
+      navigation: "Navigation",
+      about: "About",
+      copyright: "All rights reserved.",
+    },
+    disclaimer: {
+      title: "Website Preview",
+      items: [
+        "This website is a preview draft",
+        "It is not indexed on Google",
+        "It may contain errors or inaccuracies",
+      ],
+      button: "I understand",
+    },
+  },
+};
+
+export interface Translations {
+  nav: Record<string, string>;
+  hero: Record<string, string>;
+  about: Record<string, any>;
+  services: Record<string, any>;
+  gallery: Record<string, string>;
+  hours: Record<string, any>;
+  contact: Record<string, string>;
+  footer: Record<string, string>;
+  disclaimer: Record<string, any>;
+}
